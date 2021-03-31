@@ -1,0 +1,25 @@
+{
+  "name": "IdentitySDKNoBitCode",
+  "version": "0.0.2",
+  "authors": "Signicat",
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "summary": "IdentitySDK",
+  "homepage": "https://www.signicat.com/",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_version": "5.0",
+  "source": {
+    "git": "https://github.com/signicat-indentity-api/sdk-ios-no-bitcode.git",
+	"tag": "v0.0.2"
+  },
+  "vendored_frameworks": "IdentitySDK.xcframework",
+  "dependencies": {
+    "VideoID": [
+      "~> 7.1.9"
+    ]
+  }
+}

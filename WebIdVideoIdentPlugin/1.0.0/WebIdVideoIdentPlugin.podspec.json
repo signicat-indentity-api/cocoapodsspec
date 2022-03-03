@@ -1,0 +1,25 @@
+{
+  "name": "WebIdVideoIdentPlugin",
+  "version": "1.0.0",
+  "authors": "WebId",
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "summary": "WebIdVideoIdentPlugin",
+  "homepage": "https://webid-solutions.de",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_version": "5.0",
+  "source": {
+    "http": "https://api.webid-solutions.de/releases/ios/xcframework/internal/de/webid-solutions/WebIdVideoIdentPlugin/1.0.0/WebIdVideoIdentPlugin.framework-v1.0.0.zip"
+  },
+  "vendored_frameworks": "WebIdVideoIdentPlugin.xcframework",
+  "pod_target_xcconfig": {
+  	"EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}

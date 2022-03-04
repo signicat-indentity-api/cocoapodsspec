@@ -9,7 +9,7 @@
   "summary": "AhoyWebRTC",
   "homepage": "https://github.com/ahoyconference",
   "platforms": {
-    "ios": "13.0"
+    "ios": "12.0"
   },
   "swift_version": "5.0",
   "source": {

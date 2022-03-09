@@ -17,15 +17,6 @@
 	"tag": "v0.0.1"
   },
   "vendored_frameworks": "IdentityWebIDWrapperSDK.xcframework",
-	
-"dependencies": {
-    "WebIdIosSdk": [
-      "3.2.0"
-    ],
-    "WebIdVideoIdentPlugin": [
-      "1.0.0"
-    ]
-  },
   "pod_target_xcconfig": {
   	"EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },

@@ -1,0 +1,19 @@
+{
+  "name": "WebIdPayOnServerProductPlugin",
+  "version": "5.4.0",
+  "authors": "WebID",
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "summary": "WebIdPayOnServerProductPlugin",
+  "homepage": "https://webid-solutions.de",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_version": "5.0",
+  "source": {
+    "http": "https://api.webid-solutions.de/releases/ios/xcframework/internal/de/webid-solutions/WebIdPayOnServerProductPlugin/5.4.0/WebIdPayOnServerProductPlugin.framework-v5.4.0.zip"
+  },
+  "vendored_frameworks": "WebIdPayOnServerProductPlugin.xcframework"
+}

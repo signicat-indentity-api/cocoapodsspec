@@ -1,0 +1,19 @@
+{
+  "name": "WebIdDigitalSigningPlugin",
+  "version": "5.3.0",
+  "authors": "WebID",
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "summary": "WebIdDigitalSigningPlugin",
+  "homepage": "https://webid-solutions.de",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_version": "5.0",
+  "source": {
+    "http": "https://api.webid-solutions.de/releases/ios/xcframework/internal/de/webid-solutions/WebIdDigitalSigningPlugin/5.3.0/WebIdDigitalSigningPlugin.framework-v5.3.0.zip"
+  },
+  "vendored_frameworks": "WebIdDigitalSigningPlugin.xcframework"
+}

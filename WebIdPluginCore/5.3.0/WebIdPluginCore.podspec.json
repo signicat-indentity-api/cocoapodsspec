@@ -1,0 +1,19 @@
+{
+  "name": "WebIdPluginCore",
+  "version": "5.3.0",
+  "authors": "WebID",
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "summary": "WebIdPluginCore",
+  "homepage": "https://webid-solutions.de",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_version": "5.0",
+  "source": {
+    "http": "https://api.webid-solutions.de/releases/ios/xcframework/internal/de/webid-solutions/WebIdPluginCore/5.3.0/WebIdPluginCore.framework-v5.3.0.zip"
+  },
+  "vendored_frameworks": "WebIdPluginCore.xcframework"
+}

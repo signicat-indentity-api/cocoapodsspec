@@ -15,5 +15,11 @@
   "source": {
     "http": "https://api.webid-solutions.de/releases/ios/xcframework/internal/de/webid-solutions/WebIdSdkUiKitComponents/3.3.0/WebIdSdkUiKitComponents.framework-v3.3.0.zip"
   },
-  "vendored_frameworks": "WebIdSdkUiKitComponents.xcframework"
+  "vendored_frameworks": "WebIdSdkUiKitComponents.xcframework",
+  "pod_target_xcconfig": {
+    	"EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+   },
+   "user_target_xcconfig": {
+      "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+   }
 }

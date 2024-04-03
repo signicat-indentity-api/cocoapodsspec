@@ -9,7 +9,7 @@
   "summary": "IdentitySDK",
   "homepage": "https://www.signicat.com/",
   "platforms": {
-    "ios": "15.0"
+    "ios": "12.0"
   },
   "swift_version": "5.0",
   "source": {

@@ -17,12 +17,6 @@
 	"tag": "v3.0.0-test4"
   },
   "vendored_frameworks": "IdentitySDK.xcframework",
-  "pod_target_xcconfig": {
-  	"EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
   "dependencies": {
 	 "XS2AiOS": [
 	 "2.0.0"	

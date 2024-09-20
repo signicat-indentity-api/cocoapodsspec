@@ -1,0 +1,25 @@
+{
+  "name": "IdentitySDK",
+  "version": "3.0.5",
+  "authors": "Signicat",
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "summary": "IdentitySDK",
+  "homepage": "https://www.signicat.com/",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_version": "6.0",
+  "source": {
+    "git": "git@github.com:signicat-indentity-api/identity-sdk-ios.git",
+	"tag": "v3.0.5"
+  },
+  "vendored_frameworks": "IdentitySDK.xcframework",
+  "dependencies": {
+    "VideoIDSDK": [
+      "1.24.0"
+    ]
+  }
+}

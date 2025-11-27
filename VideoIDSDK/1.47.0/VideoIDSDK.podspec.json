@@ -22,9 +22,6 @@
     "WebRTC-lib": [
       "134.0.0"
     ],
-    "lottie-ios": [
-      "~> 4.4.3"
-    ],
 	"OpenSSL-Universal": [
 		"~> 3.2.2000"
 	]

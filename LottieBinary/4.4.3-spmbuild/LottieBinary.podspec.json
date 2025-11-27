@@ -1,0 +1,22 @@
+{
+  "name": "LottieBinary",
+  "version": "4.4.3-spmbuild",
+  "summary": "Lottie prebuilt xcframework (dynamic)",
+  "description": "A prebuilt dynamic XCFramework distribution of Airbnb's Lottie, matching the version and toolchain used by VideoIDSDK.",
+  "homepage": "https://github.com/airbnb/lottie-ios",
+  "license": {
+    "type": "MIT",
+    "text": "https://github.com/airbnb/lottie-ios/blob/master/LICENSE"
+  },
+  "authors": {
+    "Airbnb": "oss@airbnb.com"
+  },
+  "platforms": {
+    "ios": "15.1"
+  },
+  "swift_versions": "5.7",
+  "source": {
+    "http": "https://github.com/airbnb/lottie-ios/releases/download/4.4.3/Lottie-Xcode-15.2.xcframework.zip"
+  },
+  "vendored_frameworks": "Lottie.xcframework"
+}

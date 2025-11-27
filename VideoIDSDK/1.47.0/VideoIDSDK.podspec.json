@@ -13,7 +13,10 @@
   "platforms": {
     "ios": "15.1"
   },
-  "swift_versions": "5.0",
+  "swift_versions": [
+    "5.0",
+    "5.7"
+  ],
   "source": {
     "http": "https://eid-librerias-ios.s3.eu-west-1.amazonaws.com/VideoID-sdk/1.47.0/VideoIDSDK.xcframework.zip"
   },
@@ -23,8 +26,8 @@
       "134.0.0"
     ],
     "lottie-ios": [
-      "~> 4.4.3"
+      "4.4.3"
     ]
   },
-  "swift_version": "5.0"
+  "swift_version": "5.7"
 }

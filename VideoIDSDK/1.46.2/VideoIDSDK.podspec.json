@@ -13,12 +13,9 @@
   "platforms": {
     "ios": "15.1"
   },
-  "swift_versions": [
-    "5.0",
-    "5.7"
-  ],
+  "swift_versions": "5.0",
   "source": {
-    "http": "https://eid-librerias-ios.s3.eu-west-1.amazonaws.com/VideoID-sdk/1.46.2/VideoIDSDK.xcframework.zip"
+    "http": "https://eid-librerias-ios.s3-eu-west-1.amazonaws.com/VideoID-sdk/1.46.2/VideoIDSDK.xcframework.zip"
   },
   "vendored_frameworks": "VideoIDSDK.xcframework",
   "dependencies": {
@@ -26,15 +23,11 @@
       "134.0.0"
     ],
     "lottie-ios": [
-      "4.4.3"
-    ]
+      "~> 4.4.3"
+    ],
+	"OpenSSL-Universal": [
+		"~> 3.2.2000"
+	]
   },
-  "pod_target_xcconfig": {
-    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES",
-    "SWIFT_VERSION": "5.7"
-  },
-  "user_target_xcconfig": {
-    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
-  },
-  "swift_version": "5.7"
+  "swift_version": "5.0"
 }

@@ -1,0 +1,25 @@
+{
+  "name": "IdentitySDKMicropayment",
+  "version": "3.4.6",
+  "authors": "Signicat",
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "summary": "IdentitySDKMicropayment",
+  "homepage": "https://www.signicat.com/",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_version": "5.0",
+  "source": {
+    "git": "https://github.com/signicat-indentity-api/identity-micropayment-sdk-ios.git",
+	"tag": "v3.4.6"
+  },
+  "vendored_frameworks": "IdentitySDK.xcframework",
+  "dependencies": {
+    "VideoIDSDK": [
+      "1.47.0"
+    ]
+  }
+}

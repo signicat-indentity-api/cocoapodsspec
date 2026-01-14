@@ -16,7 +16,7 @@
     "git": "https://github.com/signicat-indentity-api/identity-micropayment-sdk-ios.git",
 	"tag": "v3.4.5"
   },
-  "vendored_frameworks": "IdentitySDKMicropayment.xcframework",
+  "vendored_frameworks": "IdentitySDK.xcframework",
   "dependencies": {
     "VideoIDSDK": [
       "1.47.0"

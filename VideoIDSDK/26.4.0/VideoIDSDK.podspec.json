@@ -20,7 +20,7 @@
   "vendored_frameworks": "VideoIDSDK.xcframework",
   "dependencies": {
     "WebRTC-lib": ["134.0.0"],
-    "OpenSSL-Universal": ["3.6.1"]
+    "OpenSSL-Universal": ["3.3.3001"]
   },
   "swift_version": "5.0"
 }
